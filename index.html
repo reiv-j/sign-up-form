@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,27 +19,33 @@
                 <p>Venture in.</p>
             </div>
         </div>
-        
+
         <form action="">
-            <div class="left-form-content">
-                <label for="first-name">First Name</label>
-                <input id="first-name" name="first-name" type="text">
+            <div class="inputs">
+                <div class="left-form-content">
+                    <label for="first-name">First Name</label>
+                    <input id="first-name" name="first-name" type="text">
 
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email">
 
-                <label for="password">Password</label>
-                <input id="password" name="password" type="password">
+                    <label for="password">Password</label>
+                    <input id="password" name="password" type="password">
+                </div>
+                <div class="right-form-content">
+                    <label for="last-name">Last Name</label>
+                    <input id="last-name" name="last-name" type="text">
+
+                    <label for="phone-number">Phone Number</label>
+                    <input id="phone-number" name="phone-number" type="tel">
+
+                    <label for="password-confirm">Confirm Password</label>
+                    <input id="password-confirm" name="password-confirm" type="password">
+                </div>
             </div>
-            <div class="right-form-content">
-                <label for="last-name">Last Name</label>
-                <input id="last-name" name="last-name" type="text">
-
-                <label for="phone-number">Phone Number</label>
-                <input id="phone-number" name="phone-number" type="tel">
-
-                <label for="password-confirm">Confirm Password</label>
-                <input id="password-confirm" name="password-confirm" type="password">
+            <div class="sign-up-section">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="#">Log In</a></p>
             </div>
         </form>
     </div>
