@@ -55,6 +55,7 @@ form .inputs {
 
 form h2 {
     font-size: 1.5em;
+    font-weight: 500;
 }
 
 .left-form-content, .right-form-content {
@@ -87,8 +88,13 @@ label {
     background-color: green;
     border: none;
     border-radius: 5px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.sign-up-section button:hover {
+    transform: translateY(-1px);
 }
 
 .sign-up-section p {
